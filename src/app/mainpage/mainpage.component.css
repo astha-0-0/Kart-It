@@ -1,0 +1,11 @@
+.viewcart{
+    margin: 50px;
+    margin-left: 150px;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    background-color: rgb(209, 117, 37);
+}

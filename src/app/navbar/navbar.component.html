@@ -1,0 +1,12 @@
+<nav class="nb">
+   <div class="container">
+      <div class="row first">Namaste! </div> 
+      <div class="row sec">Taste Buddies  </div>
+      <div class="row slide">
+      <ng-image-slider [images]="imgCollection" #nav></ng-image-slider>
+      </div>
+      <button type="button" mat-raised-button class="row back" (click)="goback()">
+         {{ isMainPage ? 'Logout' : 'Return' }}
+      </button>
+   </div>
+</nav>

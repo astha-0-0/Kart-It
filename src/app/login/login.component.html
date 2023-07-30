@@ -1,0 +1,22 @@
+<div class="container-fluid fixed-top">
+    <div class="row">
+      <div class="col-lg-7 vh-100" style="background-color: rgb(182, 101, 31); flex-direction: column;  color: #f5f5fa;">
+        <p class="change">KartIt</p> 
+      <!-- <img src="D:/rt/Kart/kart/src/assets/log.png" alt="">  -->    
+      </div>
+      <div class="col-lg-5 vh-100">
+        <form class="login-form fixed" (ngSubmit)="login()">
+          <mat-form-field appearance="fill" style="width: 350px;">
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="username" name="username" required>
+          </mat-form-field><br>
+          <mat-form-field appearance="fill" style="width: 350px;">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" [(ngModel)]="password" name="password" required>
+          </mat-form-field><br>
+          <button mat-raised-button type="submit" style="width: 350px; color: rgb(246, 241, 241); background-color: rgb(209, 117, 37);">LOGIN</button>
+          <div class="error-message" [ngStyle]="{'visibility': isErrorMessageVisible ? 'visible' : 'hidden', 'opacity': isErrorMessageVisible ? 1 : 0}">{{ loginError }}</div>
+        </form>
+        </div>
+    </div>
+  </div>

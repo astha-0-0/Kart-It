@@ -1,0 +1,12 @@
+{
+  "cart": [
+    {
+      "foodName": "Veg Biryani",
+      "id": 1
+    },
+    {
+      "foodName": "Chilli Chicken",
+      "id": 2
+    }
+  ]
+}

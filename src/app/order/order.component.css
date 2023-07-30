@@ -1,0 +1,35 @@
+.col-sm-4{
+    margin: 35px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(241, 232, 228);
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+.img{
+    margin: 5px;
+}
+.vname{
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add this CSS in your component's CSS file or in the global styles.css */
+.success-snackbar {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+  
